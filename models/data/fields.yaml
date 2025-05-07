@@ -1,0 +1,42 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        defaultFrom: title
+        type: text
+    description:
+        label: Description
+        size: large
+        span: full
+        type: richeditor
+    attachment:
+        label: 'File upload'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    image:
+        label: Cover
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    gallery:
+        label: Gallery
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

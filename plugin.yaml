@@ -1,0 +1,11 @@
+plugin:
+    name: 'pensoft.casestudies::lang.plugin.name'
+    description: 'pensoft.casestudies::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-paperclip
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Case studies'
+        url: pensoft/casestudies/casestudies
+        icon: icon-paperclip

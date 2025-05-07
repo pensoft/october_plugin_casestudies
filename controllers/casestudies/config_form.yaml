@@ -1,0 +1,10 @@
+name: CaseStudies
+form: $/pensoft/casestudies/models/data/fields.yaml
+modelClass: Pensoft\Casestudies\Models\Data
+defaultRedirect: pensoft/casestudies/casestudies
+create:
+    redirect: 'pensoft/casestudies/casestudies/update/:id'
+    redirectClose: pensoft/casestudies/casestudies
+update:
+    redirect: pensoft/casestudies/casestudies
+    redirectClose: pensoft/casestudies/casestudies

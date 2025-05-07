@@ -1,0 +1,5 @@
+title: CaseStudies
+nameFrom: title
+modelClass: Pensoft\Casestudies\Models\Data
+toolbar:
+    buttons: reorder_toolbar
