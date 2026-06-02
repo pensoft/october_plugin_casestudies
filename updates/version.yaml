@@ -11,3 +11,6 @@
     - builder_table_update_pensoft_casestudies_data_2.php
 1.0.5:
     - 'composer'
+1.0.6:
+    - 'Updated table pensoft_casestudies_data'
+    - builder_table_update_pensoft_casestudies_data_3.php

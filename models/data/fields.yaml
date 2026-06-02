@@ -6,13 +6,54 @@ fields:
     slug:
         label: Slug
         span: auto
-        defaultFrom: title
+        preset:
+            field: title
+            type: slug
         type: text
     description:
         label: Description
         size: large
         span: full
         type: richeditor
+    quick_facts:
+        label: 'Quick facts'
+        prompt: 'Add quick fact'
+        span: full
+        type: repeater
+        form:
+            fields:
+                country:
+                    label: Country
+                    span: auto
+                    type: dropdown
+                    emptyOption: '-- Select country --'
+                    options: getCountryOptions
+                region:
+                    label: Region
+                    span: auto
+                    type: text
+                name_of_site:
+                    label: 'Name of the site'
+                    span: auto
+                    type: text
+                type_of_sponge_territory:
+                    label: 'Type of Sponge territory'
+                    span: auto
+                    type: text
+                primary_water_source:
+                    label: 'Primary water source'
+                    span: auto
+                    type: text
+                secondary_water_source:
+                    label: 'Secondary water source'
+                    span: auto
+                    type: text
+                partner:
+                    label: Partner
+                    span: auto
+                    type: dropdown
+                    emptyOption: '-- Select partner --'
+                    options: getPartnerOptions
     attachment:
         label: 'File upload'
         mode: file
